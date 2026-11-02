@@ -1,0 +1,18 @@
+[4598:1102/191534.731683:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4598:1102/191535.006064:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4598:1102/191535.007213:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4598:1102/191535.011894:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4598:1102/191535.124771:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4598:1102/191535.156813:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4598:1102/191535.158595:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4706:1102/191535.179094:ERROR:gpu/ipc/client/command_buffer_proxy_impl.cc:285] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+[appimage-copy] Unpacking this AppImage in the background into /tmp/home-orca/.cache/orca/appimage
+[agent-state-rules] download failed: HTTP 404
+[secrets] Orca could not tell which keyring service this desktop uses, so secrets are stored unencrypted — even if a secret service is already running. Start Orca with --password-store=gnome-libsecret (or --password-store=kwallet6 on KDE) to name one.
+[skills] scan roots=21 present=0 walked=21 skills=0 ms=4 ids=home-codex,home-agents,home-claude,home-cursor,home-gemini,home-droid,home-continue,home-trae,home-grok,home-aug,home-zcode,home-codebuddy
+[updater] release feed pinned: current=1.4.230 includePrerelease=false → https://github.com/stablyai/orca/releases/download/v1.4.246
+[autoUpdater] Checking for update
+[autoUpdater] Generated new staging user ID: 55f3ddc9-271d-51ab-9ab7-9a519afe8823
+[autoUpdater] Found version 1.4.246 (url: orca-linux.AppImage, orca-ide_1.4.246_amd64.deb, orca-ide-1.4.246.x86_64.rpm)
+[appimage-copy] Unpacked this AppImage in 2s
+[pty:history:gc] Skipped: live worktree set is empty

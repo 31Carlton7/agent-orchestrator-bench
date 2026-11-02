@@ -11,7 +11,7 @@ This is a feature and orchestration benchmark, not a model leaderboard. The meas
 | T3 Code | v0.1.0 linux-x64 server tarball | `runs/D-t3code/probe.log` |
 | opencode (Lane B agent) | 1.19.3 | `runs/00-setup/opencode-install.log` |
 | GUI apps (launch probes) | Synara 1.0.7, Superset 1.39.0, Emdash 1.2.8, OpenChamber 2.5.0, Paseo 0.12.0, Cloudroom GUI v110-beta, Mux/Xum 0.31.0 | `runs/00-setup/gui-probes-summary.log` |
-| Realm (author-run) | v2.5.0 release, Realm-2.5.0.AppImage (extracted), sha256 61ecf73c7cf37640243b7ed8f0320cebf1890b5810722277a92b416c9a4e43c0 | `runs/F-realm/environment.txt` |
+| Realm (author-run) | v2.5.0 release, Realm-2.5.0.AppImage (extracted), sha256 61ecf73c7cf37640243b7ed8f0320cebf1890b5810722277a92b416c9a4e43c0; re-run on v2.7.0, Realm-2.7.0.AppImage, sha256 e12776638319253b68d807291ce2275e5b53261921d0ef6719a797e7ded8e278 | `runs/F-realm/environment.txt`, `runs/F-realm-2.7.0-runner/out/environment.txt` |
 | Fixture repo | commit 377fb426b834ede261ddfe7e70a6301aeaf31b5e ("fixture base") | `fixture/repo` |
 | Python / git / tmux | Python 3.13.5, git 2.47.3, tmux 3.5a | - |
 
@@ -78,6 +78,8 @@ echo '61ecf73c7cf37640243b7ed8f0320cebf1890b5810722277a92b416c9a4e43c0  Realm-2.
 ./Realm-2.5.0.AppImage --appimage-extract && mkdir -p tools/realm-x && mv squashfs-root tools/realm-x/
 REALM_BIN=tools/realm-x/squashfs-root/resources/bin/realm python3 harness/realm_suite.py   # no Node, no display; boots its own realm serve on a scratch home each run
 python3 harness/gui_probe.py realm ./Realm-2.5.0.AppImage   # Xvfb :90, as step 8
+# Criterion C on v2.7.0 or later (realm ship): commits and pushes each finished run to a bare remote on this disk; a gh that always fails keeps it off GitHub
+BENCH=$PWD REALM_BIN=tools/realm-x/squashfs-root/resources/bin/realm python3 harness/realm_ship.py
 python3 harness/orca_suite.py   # optional: Orca the same way on the same box, booting its own orca serve on Xvfb :90 each run
 # macOS app launch probe: swiftc -O harness/winlist.swift -o harness/winlist && python3 harness/gui_probe_mac.py realm /Applications/Realm.app
 ```
@@ -106,6 +108,7 @@ python3 site/build.py && python3 -m http.server -d site 8000
 - `runs/F-orca/`: Orca crash test, merge, serve readiness and restarts
 - `runs/F-realm/`: Realm v2.5.0 crash test, merge, serve readiness and AppImage launch probe (author-run, GitHub ubuntu-latest runner)
 - `runs/F-orca-same-runner/`: Orca lane A, crash, merge, serve readiness and launch probe on that same runner, same job (author-run)
+- `runs/F-realm-2.7.0-runner/`: the same job on Realm v2.7.0's release beside Orca v1.4.230 on one ubuntu-latest runner, plus `harness/realm_ship.py` (criterion C: Realm commits and pushes each finished run itself, then the merge) (author-run)
 - `runs/F-realm-ci-build/`: the same job on Realm's pre-release CI build, with Orca beside it (author-run)
 - `runs/F-realm-container/`: Realm's earlier lane A in a Debian 13 container on an Apple M4 Mac (author-run)
 - `runs/F-realm-macos/`: Realm lane A, crash, merge and app launch probe on macOS (author-run)

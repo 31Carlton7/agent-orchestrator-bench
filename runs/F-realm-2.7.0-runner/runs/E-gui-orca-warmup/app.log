@@ -1,0 +1,17 @@
+[3611:1102/191424.733414:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3611:1102/191424.781657:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3611:1102/191424.784195:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3611:1102/191424.788589:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3611:1102/191424.932533:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3611:1102/191424.976257:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3611:1102/191424.978084:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[appimage-copy] Unpacking this AppImage in the background into /tmp/home-orca/.cache/orca/appimage
+[agent-state-rules] download failed: HTTP 404
+[secrets] Orca could not tell which keyring service this desktop uses, so secrets are stored unencrypted — even if a secret service is already running. Start Orca with --password-store=gnome-libsecret (or --password-store=kwallet6 on KDE) to name one.
+[skills] scan roots=21 present=0 walked=21 skills=0 ms=7 ids=home-codex,home-agents,home-claude,home-cursor,home-gemini,home-droid,home-continue,home-trae,home-grok,home-aug,home-zcode,home-codebuddy
+[updater] release feed pinned: current=1.4.230 includePrerelease=false → https://github.com/stablyai/orca/releases/download/v1.4.246
+[autoUpdater] Checking for update
+[autoUpdater] Generated new staging user ID: 35de14f8-702e-5d96-8d54-c8fcca648d95
+[autoUpdater] Found version 1.4.246 (url: orca-linux.AppImage, orca-ide_1.4.246_amd64.deb, orca-ide-1.4.246.x86_64.rpm)
+[appimage-copy] Unpacked this AppImage in 2s
+[pty:history:gc] Skipped: live worktree set is empty

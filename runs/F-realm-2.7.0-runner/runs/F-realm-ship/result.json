@@ -1,0 +1,267 @@
+{
+ "repo_add": {
+  "code": 0,
+  "s": 0.08,
+  "result": {
+   "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+   "projectId": "01M6EVD3DG9498G89YAQGNYEJ7",
+   "environmentId": "01M6EVD3DGX80RDVZTWN7HZ8XR",
+   "path": "/tmp/realm-ship-repo-mp11zgqw/repo"
+  }
+ },
+ "runs": {
+  "t4": {
+   "code": 0,
+   "s": 0.25,
+   "result": {
+    "terminalId": "01M6EVD3MXCTBVBV8C8R87REVF",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "environmentId": "01M6EVD3M6E2FTS3SVVSGAF7T6",
+    "path": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t4",
+    "branch": "realm/t4"
+   }
+  },
+  "t1": {
+   "code": 0,
+   "s": 0.28,
+   "result": {
+    "terminalId": "01M6EVD3NVR5XEW3188SKR6407",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "environmentId": "01M6EVD3MKVW5802FWXE6WA8TT",
+    "path": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t1",
+    "branch": "realm/t1"
+   }
+  },
+  "t5b": {
+   "code": 0,
+   "s": 0.33,
+   "result": {
+    "terminalId": "01M6EVD3QHCFM3DKR7G5NNCB9M",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "environmentId": "01M6EVD3PTCVYKK5PE6DE86ETN",
+    "path": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t5b",
+    "branch": "realm/t5b"
+   }
+  },
+  "t3": {
+   "code": 0,
+   "s": 0.36,
+   "result": {
+    "terminalId": "01M6EVD3QTH1YKABTKRACGS1C3",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "environmentId": "01M6EVD3QER1DMDFFKPWTBA48D",
+    "path": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t3",
+    "branch": "realm/t3"
+   }
+  },
+  "t2": {
+   "code": 0,
+   "s": 0.38,
+   "result": {
+    "terminalId": "01M6EVD3RC4SXT5B35Z3MD82GP",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "environmentId": "01M6EVD3R6WEA96D625887FP43",
+    "path": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t2",
+    "branch": "realm/t2"
+   }
+  },
+  "t5a": {
+   "code": 0,
+   "s": 0.39,
+   "result": {
+    "terminalId": "01M6EVD3RV4YECVXH42KV7F28Q",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "environmentId": "01M6EVD3R9SDV5RA4NNXBE61RC",
+    "path": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t5a",
+    "branch": "realm/t5a"
+   }
+  }
+ },
+ "ships": {
+  "t1": {
+   "verified_before_ship": true,
+   "exit": 0,
+   "ship_s": 0.15,
+   "commit": "committed",
+   "sha": "2c970fbe30dc12ec626ea51df3e65de7ca9107b1",
+   "push": "pushed",
+   "on_remote": true,
+   "clean_after": true,
+   "raw": null
+  },
+  "t2": {
+   "verified_before_ship": true,
+   "exit": 0,
+   "ship_s": 0.13,
+   "commit": "committed",
+   "sha": "2c0096a43cf6d4c61757bfb5f7493789c50a82d9",
+   "push": "pushed",
+   "on_remote": true,
+   "clean_after": true,
+   "raw": null
+  },
+  "t3": {
+   "verified_before_ship": true,
+   "exit": 0,
+   "ship_s": 0.14,
+   "commit": "committed",
+   "sha": "3e42cbcad014fcf121bc4fdf370e933780cd569a",
+   "push": "pushed",
+   "on_remote": true,
+   "clean_after": true,
+   "raw": null
+  },
+  "t4": {
+   "verified_before_ship": true,
+   "exit": 0,
+   "ship_s": 0.14,
+   "commit": "committed",
+   "sha": "cd8a247806ae95084b2174ed1d5d8e8491e76bec",
+   "push": "pushed",
+   "on_remote": true,
+   "clean_after": true,
+   "raw": null
+  },
+  "t5a": {
+   "verified_before_ship": true,
+   "exit": 0,
+   "ship_s": 0.14,
+   "commit": "committed",
+   "sha": "19fd850d791b4bc0d14ce40517a16fd178cf7ad6",
+   "push": "pushed",
+   "on_remote": true,
+   "clean_after": true,
+   "raw": null
+  },
+  "t5b": {
+   "verified_before_ship": true,
+   "exit": 0,
+   "ship_s": 0.14,
+   "commit": "committed",
+   "sha": "5a6943c2e00e966a192395e662ca6817d94ecff7",
+   "push": "pushed",
+   "on_remote": true,
+   "clean_after": true,
+   "raw": null
+  }
+ },
+ "wait": {
+  "code": 0,
+  "s": 3.29,
+  "result": [
+   {
+    "terminalId": "01M6EVD3MXCTBVBV8C8R87REVF",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "cwd": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t4",
+    "command": "env STUB_SLEEP=3 python3 /home/runner/work/_temp/bench/harness/benchagent.py 'Write tests: shelf/stats.py has no tests. Create tests/test_stats.py using unittest covering mean, median (odd and even length, unsorted input), clamp (below, inside, above, lo>hi error) and empty-input errors. Do not modify shelf/stats.py. Tests must pass: python3 -m unittest discover -s tests -t .'",
+    "running": false,
+    "exitCode": 0,
+    "signal": null,
+    "startedAt": 1793647349406,
+    "exitedAt": 1793647352761
+   },
+   {
+    "terminalId": "01M6EVD3NVR5XEW3188SKR6407",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "cwd": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t1",
+    "command": "env STUB_SLEEP=3 python3 /home/runner/work/_temp/bench/harness/benchagent.py 'Bug fix: in shelf/paging.py, paginate() is documented as 1-indexed but returns wrong items, and page_count() drops the final partial page. Fix both bugs. page 0 or negative pages must return []. Do not touch other files. Run the existing tests with: python3 -m unittest discover -s tests -t .'",
+    "running": false,
+    "exitCode": 0,
+    "signal": null,
+    "startedAt": 1793647349436,
+    "exitedAt": 1793647352786
+   },
+   {
+    "terminalId": "01M6EVD3QHCFM3DKR7G5NNCB9M",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "cwd": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t5b",
+    "command": "env STUB_SLEEP=3 python3 /home/runner/work/_temp/bench/harness/benchagent.py 'Feature: in shelf/config.py add a keyword argument env=\"dev\" to load_config(overrides=None, env=\"dev\"); the returned dict must include key '\\''env'\\'' set to that value (overrides may still override it).'",
+    "running": false,
+    "exitCode": 0,
+    "signal": null,
+    "startedAt": 1793647349489,
+    "exitedAt": 1793647352828
+   },
+   {
+    "terminalId": "01M6EVD3QTH1YKABTKRACGS1C3",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "cwd": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t3",
+    "command": "env STUB_SLEEP=3 python3 /home/runner/work/_temp/bench/harness/benchagent.py 'Refactor: shelf/report.py has duplicated formatting logic in book_line and loan_line. Extract one shared helper (e.g. _fmt_row(title, who, year)) so the column formatting (.ljust(30)[:30], .ljust(20)[:20], rjust(4)) appears once. Public function names and output must stay byte-for-byte identical. Existing tests must still pass: python3 -m unittest discover -s tests -t .'",
+    "running": false,
+    "exitCode": 0,
+    "signal": null,
+    "startedAt": 1793647349498,
+    "exitedAt": 1793647352836
+   },
+   {
+    "terminalId": "01M6EVD3RC4SXT5B35Z3MD82GP",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "cwd": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t2",
+    "command": "env STUB_SLEEP=3 python3 /home/runner/work/_temp/bench/harness/benchagent.py 'Feature: add a new module shelf/slug.py with slugify(text, max_len=None). Lowercase, replace any run of non-alphanumeric characters with a single '\\''-'\\'', strip leading/trailing '\\''-'\\''. If max_len is given, truncate to max_len characters then strip any trailing '\\''-'\\''. slugify('\\''???'\\'') returns '\\'''\\''. Only create/modify shelf/slug.py.'",
+    "running": false,
+    "exitCode": 0,
+    "signal": null,
+    "startedAt": 1793647349517,
+    "exitedAt": 1793647352845
+   },
+   {
+    "terminalId": "01M6EVD3RV4YECVXH42KV7F28Q",
+    "spaceId": "01M6EVD3DF90CPY34587PZ90VH",
+    "cwd": "/tmp/realm-ship-home-p7tg8zdt/worktrees/01M6EVD3DF90CPY34587PZ90VH/t5a",
+    "command": "env STUB_SLEEP=3 python3 /home/runner/work/_temp/bench/harness/benchagent.py 'Change: in shelf/config.py make the default '\\''retries'\\'' value 5 instead of 3. Update tests/test_smoke.py if needed.'",
+    "running": false,
+    "exitCode": 0,
+    "signal": null,
+    "startedAt": 1793647349532,
+    "exitedAt": 1793647352837
+   }
+  ]
+ },
+ "pr_without_github": {
+  "exit": 1,
+  "commit": "nothing-to-commit",
+  "push": "up-to-date",
+  "pr": {
+   "state": "unavailable",
+   "url": null,
+   "reason": "gh could not create the request"
+  }
+ },
+ "merges": [
+  {
+   "branch": "realm/t1",
+   "result": "clean"
+  },
+  {
+   "branch": "realm/t2",
+   "result": "clean"
+  },
+  {
+   "branch": "realm/t3",
+   "result": "clean"
+  },
+  {
+   "branch": "realm/t4",
+   "result": "clean"
+  },
+  {
+   "branch": "realm/t5a",
+   "result": "clean"
+  },
+  {
+   "branch": "realm/t5b",
+   "result": "CONFLICT",
+   "files": [
+    "shelf/config.py"
+   ]
+  }
+ ],
+ "post_merge_verify": {
+  "t1": true,
+  "t2": true,
+  "t3": true,
+  "t4": true,
+  "t5a": true
+ },
+ "realm_home": "/tmp/realm-ship-home-p7tg8zdt"
+}
